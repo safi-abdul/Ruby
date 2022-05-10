@@ -24,3 +24,29 @@ begin
 rescue ArgumentError
     puts "This is a way to write custom exceptions"
 end
+
+
+def multi_string
+    multi = <<EOM
+    this is multi line
+    string of
+EOM
+    puts multi
+end
+
+#multi_string
+# string.include?("something")
+# string.size
+# string.count("string to search and count")
+# a == a => to compare
+# string.strip => trim
+# lstrip & rstrip for left and right strips
+# string.chop => cut of last letter
+# string.delete("something")
+# .split(//)
+
+puts "a".equal?("a")
+# equals is same as IsEqual ? is convention
+# for boolean mehthods
+
+
