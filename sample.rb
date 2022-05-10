@@ -67,3 +67,7 @@ when 2.0
 else 3.0
     puts "default"
 end
+
+another_var = 2
+puts (another_var  == 2) ? "2" : "1"
+puts "asdf"
